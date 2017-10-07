@@ -1,0 +1,19 @@
+Trong python su dung hàm open là công cu co so su dung đê truy câp các file trên system. 
+khi goi hàm open tra ve môt đôi tuong là "file object" nó duoc kêt nôi toi file ben ngoai, đôi tuong file co các phuong thuc đê chuyên du liêu toi và tu file va thuc hiên môt loat nhung hanh đông có liên quan toi file
+=============================================
+File bao gôm hai dang chính là text data va binary data 
+++ text file  : noi dung la cac sting.
+++ Binary file : bao gom  8 bit/1byte.
+trong script cua ban, binary file content la mot chuoi byte, luôn là môt object byte- chuoi các sô integer nho. Binary file ko cho phep chuyên đôi dang du lieu khi nó truyên tu file nay sang file khác 
+========================================
+chú ý vs tu khoa 'with'  dùng cho viêc quan lý--thay cho 'try/finally'
+myfile = open('filename','w')  |  with open('filename','w') as myfile
+                               |   process myfile................
+...process myfile              |
+myfile.close()                 |
+============================================
+     INPUT FILE 
++ readlines() : load toàn bô nd file vao bo nho, tra vê môt list of line string.
+ + file.read() : tra ve mot string bao gom tat ca các ký tu (or byte) đa luu tru trong file
+ +file.read(N) : tra ve mot string bao gom N ký tu (or byte) tu mo file
+ +file.readline() : doc den ký tu \n ke tiep và tra vê môt line string

@@ -1,0 +1,9 @@
+This is stuff I typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have in here.
+script, filename = argv # 2 tham số truyền vào 
+# phương thức open() đên mở một file trả về là file object
+# với tham số truyền vào là tên file tại đường dẫn đang làm việc 
+txt = open(filename) 
+print(" Here's your file %r: " % filename)
+print(txt.read()) # phương thucw read()"""

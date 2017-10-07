@@ -1,0 +1,38 @@
+class gồm :
+	+ thuộc tính đặc trưng cho tất cả các đối tượng của lớp bao gồm :
+		+ Data member : gồm
+			+ Clas variable và instance vaiable
+		+ Method() : hàm thực thi
+	+ instance là một thực thể của lớp
+	+ object là instance duy nhất chứa cấu trúc dữ liệu được định nghĩa bởi class
+- Class variable : biến dùng chung cho tất cả các đối tượng cả lớp được định nghĩa trong lớp, ko nằm trong method(), được sử dụng thường xuyên.
+- Instance variable được định nghĩa bên trong method,và chỉ thuộc về các instance(đối tượng của lớp)
+
+---một vài hàm có sẵn trong oop
++ hasattr(obj, name): kiểm tra đối tượng có thuộc tính name hay ko 
+
++ setattr(obj, name, value) : gán giá trị cho thuộc tính.
+
++ Delattr(obj,name) : xóa thuộc tính...name
+
++ Ngoài ra trong python còn có các thuộc tính ẩn : được ký hiệu là __attributes (đây là thuộc tính hạn chế quyền truy cập ko phải là privateclass Point:
+    def __init__(self,x, y):
+            self.x = x
+            self.y = y
+    def __str__(self):
+            return "(%d,%d)"%(self.x,self
+)
+example : class abc :
+				__name = "oanh"
+
+a = abc()
+print a.__name #báo lỗi 
+print a._abc__name # in ra oanh
+
+
++ chú ý các MODIFIER BAO GỒM :
+NAME     PUBLIC     CÓ THẺ TRUY CẬP TỪ BÊN NGOÀI VÀ BÊN TRONG 
+_NAME    PROTECTED  GIỐNG NHƯ PUBLIC NHƯNG KHÔNG THỂ TRUY CẬP TRỰC TIẾP TỪ BÊN NGOÀI
+__NAME   PRIVATE    KHÔNG THỂ NHÌN THẤY VÀ TRUY CẬP TỪ BÊN NGOÀI
+
+tính đa hình là dùng cùng một phương thức nhưng cách thức thực hiện khác nhau . 

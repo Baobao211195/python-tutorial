@@ -1,0 +1,11 @@
+#comment
+#Database
+
+
+db_server = 192.168.0.11
+db_port = 1521
+db_sid = DB60
+db_user = ALERT_CALL_PHONE
+db_password = vanoanh
+
+

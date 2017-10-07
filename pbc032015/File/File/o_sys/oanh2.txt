@@ -1,0 +1,16 @@
+pham van onah
+sinh ngayf 
+haoc ta
+truong 
+akdnfadf
+# """một vài lưu ý vè module sys..
+# là module là viêc với hệ thống
+# nó có một vài hàm như
+# + sys.exit(exit code) : dùng để thoát chương trình khi cần:
+# + sys.argv là một list các argument của chương trình. ví dụ: chương trình là
+# một hàm, được hệ thống gọi, có đối số, sys.argv cho ta truy cập các đối số đó :
+# Nếu chạy lệnh sau trong terminal echo a b c 
+# thì sys.argv sẽ chứa giá trị ['echo', 'a', 'b', 'c']
+# + sys.path 
+# """
+# sử dụng module sys để giao tiếp vs hệ thống

@@ -1,0 +1,9 @@
+"""oanhfadnf adfasdfn
+dfaodnfadf
+dasfdsnfdnksf"""
+s = int(input("phep toan thu hien : "))
+	if s == 4:	
+		print("moi ban nhap gia tri: ")
+		a = int(input("Gia tri thu nhat :"))
+		b = int(input("Gia tri thu hai :"))
+		print("Ket qua la %d" % (a//b))

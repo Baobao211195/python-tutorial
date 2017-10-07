@@ -1,0 +1,9 @@
+viêc chay môt file tu dong lenh hê thông tao ra stream standard xuât hien tai noi ban go len(tren shell hoac CMD). đoan mã dê dàng đoc các sô cho den khi nó nhân đuuoc viec ket thúc file trong standard input stream(trên windown là Ctrl -C và trên Unix la Ctrl -D).
+Ca hai nên tang chúng ta có thê huong dòng đâu vào tu môt file voi cu phap "< finame".(e.g :" < input.txt") trên DOS ép đoan script đoc đâu vào tu mot file text là input.txt. Trên Linux la dung lenh "cat"
+tren dos dùng lênh "type".
+.tai đây file input.txt tu đông câp đau vao nó se tuong tác vs đoan script đê đoc file input so vs tu bàn phím. Standard output có thê ghi vao môt file khac vs cú pháp sau "> file name". trong truong hop nay chung ta có the ket hop doc va ghi truc tiep
+eg "python file.py < input.txt > output.txt"
+=======================================
+CHANGING PROGRAMS WITH PIPES
+tren windown cung giong linux, nó cũng có thê gui standard output cua môt chuong trinh toi đâu vao cua môt chuong trình khác băng cach su dung kí tu " | " giua hai câu lênh. cái này goi la toán tu "Pipe" boi vi shell tao ra môt pipeline kêt nôi đâu ra voi đâu vào hai câu lênh. chúng ta gui dau ra cua môt đoan script to the standard "more"  command line program's input đê nhin no lam viec nhu the nao.
+

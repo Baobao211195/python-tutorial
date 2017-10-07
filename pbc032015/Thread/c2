@@ -1,0 +1,29 @@
+c2 
+dinh nghia mot clas con roi 
+ co ham innit()
+ 	super(lop thread cha threading.thread __init___)
+ chi dinh thread con thuc hien
+ 	co ham run()
+
+python
+
+
+ham main 
+pool = redis.ConnectionPool(host,port, max.connection = 9 )
+def push(pool):
+	while:
+	r = redis.redis(connection.pool = pool)
+	r.push(key value)
+	time.sleep(1s)
+	logging :
+
+
+def pop(pool)
+	while :
+		r = redis.redis(connection.pool = pool)
+		r.pop('key')
+
+t1 = thread.thread(target = push, args =('pool,'))
+t2 = thread.thread(target = pop, args =('pool,'))
+t1.start()
+t2.start()

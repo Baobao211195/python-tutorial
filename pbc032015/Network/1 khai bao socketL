@@ -1,0 +1,6 @@
+1 khai bao socketL
+2 bind socket vao dia chi nay :
+3 : lang nghe xem co ai ket noi khong
+4 : neu nhu co ket noi : accept -> giao tiep xu ly du lieu, tra ve
+5 : dong ket noi
+client:

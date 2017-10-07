@@ -1,0 +1,16 @@
+# excercire 8 printing and printing
+formatter = ("%r %r %r %r" ) 
+print(formatter)
+print()
+print( formatter %("oanh", "nam", "hanh", "phong"))
+print()
+print(formatter %(1,2,3,4))
+print()
+print(formatter % ("one","two","three", "four"))
+print()
+print(formatter % (True, False,False,True))
+print()
+print(formatter % (formatter,formatter,formatter,formatter))
+print()
+print(formatter % ("I had thir thing.", "that you could type up right"
+," but it didn't ring", "ro I raid goodnight"))

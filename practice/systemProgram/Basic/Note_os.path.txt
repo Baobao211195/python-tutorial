@@ -1,0 +1,57 @@
+# -*- coding: utf8 -*-
+"""
+cách su dung python de viêt cac cong cu
+hê thông ..tool,db,app, Internet scripts, ...
+
+theo nhu cách này chúng ta tìm hiêu rông hon
+các khái niêm lâp trinh python 
+trong cong viêc : su dung lai code, kha nang duy trin,oop
+
+chap 2 : gioi thieu ve các module lien quan toi he thon
+
+chap 3 : tiep tuc tim hieu giao dien he thong co ban băng
+cách nghien cuu vai tro cua no trong các khai niem lap trinh he thong:
+nhu : strems, thong so command-line, bien moi truong
+
+chap 4 : tâp trung cac con cu de xu li file, duong dan, cây duoduong dan
+
+chap 5: tim hieu cac cong cu chuan danh cho viêc xu li song...thread,queu,pipe,sigals...
+
+chap 6 :  bao gôm boi mot tap collection lap trinh huong he thong.
+cac collection bao gom cac doan ma hê thông thông thuong, cac script xu ly duong dan va file
+
+cac vi du lien quan den cac giao dien he thong danh cho cac khai niem 
+phat trien python.
+
+Phạm văn oanh hà nam sii 
+
+Nhung giao diên vê hê thong trong pyhon thuong duoc chia thanh 2
+module sys và os
+nhung thu vien chuân khác phu thuoc vao mien nay
+
++ glob : dành cho viêc vo rong ten file
+
++ socket : các két nôi mang và Inter-process Communication
+
++ threading, _thread, queu : dành cho viêc chay và đông bo các thread cùng nhau
+
++ time , timeit : dành cho viêc truy câp  thoi gian hê thông môt cách chi tiêt
+
++ subprocess, multiprocessing : dành cho viêc chay và điêu khiên các su lý song song
+
++ signal, select, shutil, tempfile, and other : dành cho cac nhiêm vu liên quan đên he thông
+
+ngoài ra còn có : pySerial (môt serial port interface)
+				+ Pexpect (an Expect work-alike for controlling cross-program dialogs)	
+				+ Twisted (môt networking framework)
+----------------------------------------------------------------------------------------------
+Sys : đua ra các thành phân liên quan toi ban than trình thông dich python cua nó (ví du cac module tìm kiêm duongd dan)
+os : bao gôm các biên và hàm dùng đê map voi hê thông đang hoat đông khi ma python dang chay
+
+
+
+
+
+
+
+"""""
