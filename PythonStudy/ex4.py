@@ -18,3 +18,5 @@ print("there will be ", car_not_driven, "empty cars today.")
 print("we can transport ", carpool_capacity, "people today.")
 print("we have ", passengers,"to carpool today.")
 print("we need to put about ", average_passenger_per_car, "in each car.")
+
+print("pham van oanh ha anm", average_passenger_per_car, "in each car.")
