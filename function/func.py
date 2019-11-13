@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 print("""
 + giới thiệu về function trong python
 
@@ -113,4 +115,22 @@ dct = {
         'Seattle': 'Mariners'
     }
 print(type(dct))
-print(keywordArgument2(dct))
+
+print(keywordArgument2(**dct))
+
+# def fun_only_post(param=2, /):
+#     print(param)
+print("""
+check again 
+""")
+
+# fun_only_post("oanh")
+def keyword_only_arg(*, arg):
+    print(arg)
+print(keyword_only_arg(arg="oanh"))
+
+# def combined_example(pos_only, /, standard, *, kwd_only):
+#     print(pos_only, standard, kwd_only)
+# def foo(name, /, **kwds):
+#     return 'name' in kwds
+# print(type(foo(1, **{'name': 2})))
