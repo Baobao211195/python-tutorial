@@ -113,4 +113,13 @@ dct = {
         'Seattle': 'Mariners'
     }
 print(type(dct))
-print(keywordArgument2(dct))
+print(keywordArgument2(**dct))
+
+print(keywordArgument2(**{
+        'Colorado': 'Rockies',
+        'Boston': 'Red Sox'}))
+
+print("print tuple==================")
+print(keywordArgument("oanh", "vankem"))
+
+print(keywordArgument(*("oanh", "vankem")))
