@@ -115,7 +115,7 @@ dct = {
         'Seattle': 'Mariners'
     }
 print(type(dct))
-<<<<<<< HEAD
+
 print(keywordArgument2(**dct))
 
 print(keywordArgument2(**{
@@ -145,3 +145,4 @@ print(keyword_only_arg(arg="oanh"))
 # def foo(name, /, **kwds):
 #     return 'name' in kwds
 # print(type(foo(1, **{'name': 2})))
+
