@@ -4,6 +4,9 @@ print("""
 + tuple is immutable object
 
 + if element of type is mutable object, we can modify these mutable objects
+
++ Thuc hien packing and unpacking
+
 """)
 
 tp = 23, 32, 54, "oanh"
