@@ -68,4 +68,9 @@ print("""
 """)
 
 print((lambda x, *, y=0, z=0: x + y + z)(1, y=2, z=3))
+def pring(x):
+    return x
 
+y = lambda x: pring(x)
+
+print(y("pham van oanh"))    
