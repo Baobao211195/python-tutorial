@@ -145,4 +145,4 @@ print(keyword_only_arg(arg="oanh"))
 # def foo(name, /, **kwds):
 #     return 'name' in kwds
 # print(type(foo(1, **{'name': 2})))
-# print(type(foo(1, **{'name': 2})))
+
