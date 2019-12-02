@@ -18,8 +18,8 @@ read_file('demo.txt')
 def read_file_with_keyword(file):
     """
     + working to with keyword to processing file objects
-    => file sẽ được close đúng cách sau khi finish trong trường hợp có exception
-    tương đương với việc viết sử dụng try-finnaly
+    => file will close when occurs exception
+    familiar to use try-finally
     """
     with open(file) as f:
         data = f.read()
@@ -41,3 +41,12 @@ read_file_with_keyword('demo.txt')
 def write_file(file):
     pass
     
+def working_json():
+    """
+    + Working json
+
+    """
+    import json
+    return json.dumps([1,"oanh", 2323])
+
+print("working json", working_json())
