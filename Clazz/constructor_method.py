@@ -22,7 +22,10 @@ class Person():
 
 if __name__ == "__main__":
     # person = Person()
-    person = Person("name")
+    person = Person("van")
     person.be_awesome() 
     person.swim()
     person.sayHello()
+
+    person2 = Person("oanh")
+    person2.sayHello()
