@@ -3,7 +3,6 @@
 + instace varibles : variables can be accessed at the instance variable
 
 """
-
 class Person():
     
     # this is class variable
