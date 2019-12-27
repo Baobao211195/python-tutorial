@@ -11,7 +11,7 @@ class Robot:
     def __init__(self):
         type(self).__counter += 1
 
-    @staticmethod
+    @staticmethod  # create static method
     def robotInstances():
         return Robot.__counter
 
