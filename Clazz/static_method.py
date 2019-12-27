@@ -23,10 +23,3 @@ if __name__ == "__main__":
     y = Robot()
     print(y.robotInstances())
     print(Robot.robotInstances())
-
-    # print(Robot.robotInstances())
-    # x = Robot()
-    # print(x.robotInstances())
-    # y = Robot()
-    # print(y.robotInstances())
-    # print(Robot.robotInstances())
