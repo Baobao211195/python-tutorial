@@ -21,6 +21,7 @@ class InputError(Errors):
         self.message = message
 
 class TransitionError(Errors):
+
     """Raised when an operation attempts a state transition that's not
     allowed.
 
