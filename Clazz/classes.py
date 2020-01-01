@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 start vs class in python
 """

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class Person():
     """
     + __init__ ko phải là constructor mà chỉ là một function constructor

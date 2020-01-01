@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 + class variables : variables can be accessed at the class level
 + instace varibles : variables can be accessed at the instance variable

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 ============== Class method =============================
 """
@@ -12,9 +14,10 @@ class Robot:
         type(self).__counter += 1
 
     @classmethod  # create class method
-    def robotInstances(cls):
-        return cls, Robot.__counter
+    def robotInstances(cls): # cls describe for this Object of class , maybe it's better in irheritance case 
+        return cls, Robot.__counter # return a tuple
 
+    
 
 if __name__ == "__main__":
     print(Robot.robotInstances())
